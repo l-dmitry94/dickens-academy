@@ -1,0 +1,43 @@
+.footer {
+    padding: 32px 0;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+    }
+
+    &__logo {
+        flex: 1;
+    }
+
+    &__logo-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    &__text {
+        flex: 1;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--dark-blue);
+    }
+
+    &__menu-list {
+        flex-grow: 0;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__menu-item {
+        padding: 12px 8px;
+    }
+
+    &__menu-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+        color: var(--black);
+    }
+}

@@ -1,0 +1,125 @@
+.testimonials {
+    padding: 50px 0;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        margin-bottom: 50px;
+    }
+
+    & .glider-track {
+        gap: 24px;
+    }
+
+    & .glider-next, & .glider-prev {
+        position: static;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid var(--dark-blue);
+        border-radius: 12px;
+        background-color: var(--white);
+        padding: 20px 78px 20px 20px;
+    }
+
+    &__img {
+        width: 200px;
+        height: 225px;
+        border-radius: 12px;
+    }
+
+    &__name {
+        font-family: var(--second-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--black);
+        margin-bottom: 2px;
+    }
+
+    &__role {
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--gray-500);
+        margin-bottom: 2px;
+    }
+
+    &__rating {
+        display: flex;
+        margin-bottom: 16px;
+    }
+
+    &__star {
+        width: 22px;
+        height: 22px;
+        fill: #f4dc00;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--black);
+    }
+
+    &__glider-controls-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__glider-controls {
+        display: flex;
+        gap: 30px;
+        border: 1px solid #bfccd8;
+        border-radius: 100px;
+        padding: 12px 14px;
+    }
+
+    &__glider-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background-color: var(--dark-blue);
+
+    }
+
+    &__arrow {
+        fill: none;
+        stroke: var(--white);
+
+        &--left {
+            transform: rotate(90deg);
+        }
+
+        &--right {
+            transform: rotate(-90deg);
+        }
+    }
+
+    & .glider-dots {
+        align-items: center;
+        gap: 2px;
+    }
+
+    & .glider-dot {
+        width: 13px;
+        height: 4px;
+        border-radius: 20px;
+        background-color: var(--blue-100);
+        color: var(--blue-100);
+        margin: 0;
+
+        &.active {
+            width: 24px;
+            background-color: var(--dark-blue);
+            color: var(--dark-blue);
+        }
+    }
+}

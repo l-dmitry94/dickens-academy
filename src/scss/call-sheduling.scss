@@ -1,0 +1,46 @@
+.call-sheduling {
+    background-color: var(--dark-blue);
+    padding: 50px 0;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+
+    &__content {
+        flex: 1;
+    }
+
+    &__title {
+        color: var(--white);
+        margin-bottom: 4px;
+    }
+
+    &__text {
+        max-width: 518px;
+        line-height: 1.5;
+        color: var(--white);
+    }
+
+    &__form {
+        flex: 1;
+    }
+
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    &__btn {
+        font-family: var(--second-family);
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--dark-blue);
+        border-radius: 14px;
+        background-color: var(--white);
+        padding: 14px 30px;
+    }
+}
